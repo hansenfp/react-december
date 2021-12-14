@@ -1,0 +1,66 @@
+input {
+  width: 99%;
+  padding: 12px 20px;
+  margin: 8px 0 0 5px;
+}
+
+input:focus {
+  background: rgb(231, 231, 231);
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0 10px 20px;
+}
+
+textarea:focus {
+  background: rgb(231, 231, 231);
+}
+
+input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: rgb(255, 255, 255);
+  background: $dark-grey-color;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+input[type=submit]:hover {
+  background: rgb(61, 61, 61);
+}
+
+::selection {
+  background: rgb(57, 129, 189);
+}
+
+::-moz-selection {
+  background: rgb(57, 129, 189);
+}
+
+.form {
+  background: radial-gradient(circle farthest-corner, white, #E5E5E5);
+  padding: 25px;
+}
+
+.form__allow {
+  display: flex;
+  margin-top: 10px;
+}
+
+input[type=checkbox] {
+  border-radius: 10px;
+  cursor: pointer;
+  transform: scale(2);
+  accent-color: $pink-color;
+}
+
+.https {
+  width: 1.3em;
+  height: 1.3em;
+  padding-top: -20px;
+  border-radius: 5px;
+  background: $light-gray-color;
+}

@@ -1,0 +1,25 @@
+.home__container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin-right: 25vw;
+  margin-left: 25vw;
+  padding: 20px;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin-right: 25vw;
+  margin-left: 25vw;
+}
+
+.contact__sub__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.form {
+    min-width: 800px;
+}
